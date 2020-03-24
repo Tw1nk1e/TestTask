@@ -1,0 +1,82 @@
+.app {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #4ECDC4;
+}
+
+.control-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    background-color: #FFE66D;
+    border-radius: 20px;
+}
+
+.custom-input {
+    margin-bottom: 20px !important;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: gainsboro;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.cart-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF6B6B;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.delete-button {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+
+.cart-sum-container {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(163, 230, 111);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-sum-controls {
+    display: flex;
+    flex-direction: column;
+}
+
+.empty-card {
+    width: 100%;
+    text-align: center;
+}
+
+.error {
+    margin-top: 20px !important;
+    color: crimson;
+}
